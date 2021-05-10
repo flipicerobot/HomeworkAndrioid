@@ -48,7 +48,8 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="7"/>
+            android:text="7"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -59,12 +60,14 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="9"/>
+            android:text="9"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="/"/>
+            android:text="/"
+            android:onClick="onOperationClick"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/secondButtonPanel"
@@ -78,22 +81,26 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="4"/>
+            android:text="4"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="5"/>
+            android:text="5"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="6"/>
+            android:text="6"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="*"/>
+            android:text="*"
+            android:onClick="onOperationClick"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/thirdButtonPanel"
@@ -107,22 +114,26 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="1"/>
+            android:text="1"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="2"/>
+            android:text="2"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="3"/>
+            android:text="3"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="-"/>
+            android:text="-"
+            android:onClick="onOperationClick"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/forthButtonPanel"
@@ -136,22 +147,26 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="0"/>
+            android:text="0"
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=","/>
+            android:text=","
+            android:onClick="onNumberClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="+"/>
+            android:text="+"
+            android:onClick="onOperationClick"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="="/>
+            android:text="="
+            android:onClick="onOperationClick"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
